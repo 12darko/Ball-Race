@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1767aa84c43341acbd485e8a676ea802, type: 3}
+  m_Name: LevelSettings_Master
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::MapSettings
+  trackLength: 25
+  scaleMultiplier: 100
+  startPrefab: {fileID: 2707536575342368035, guid: 3b3a9a029d1dc9d4c895cc05d21707cf, type: 3}
+  finishPrefabs:
+  - {fileID: 5789000050916204841, guid: c3c46fef762ec284ea1944a842f46326, type: 3}
+  - {fileID: 3065971730196539968, guid: 0d042fdc050c3c6458db9b2d9fc073d1, type: 3}
+  - {fileID: 1886337268622334030, guid: dbe7c1624b3411847b4e7730d1c5356c, type: 3}
+  straightLength: 1
+  cornerSize: 1
+  linearSafePaths:
+  - {fileID: 5330212852923552824, guid: 8c4c28fc819503b46aef995f95bddcf5, type: 3}
+  - {fileID: 4370240081878961177, guid: 2653dc979a3f27c4a85bb8a468e48d8e, type: 3}
+  - {fileID: 7042394804637036896, guid: eacdecfe0579d6b469ac5e8df23627fa, type: 3}
+  - {fileID: 3389619540763271626, guid: 196ff1c29d95d6e48a11710f13774a19, type: 3}
+  - {fileID: 855739716197461007, guid: 9e1f65b182972444b8bb1edb624051a4, type: 3}
+  - {fileID: 1849488255060951532, guid: 7bca2b55dbe0dcc4a860e30ec6e7c85c, type: 3}
+  linearObstaclePaths:
+  - {fileID: 7851376698360392371, guid: c3bcd2274bf541441b0f42216dc52937, type: 3}
+  - {fileID: 8194707926053216563, guid: 48d50f93223046547b95a1f7d70d3fe1, type: 3}
+  - {fileID: 6799460717518061824, guid: 2f7395318e378544da7a0fd8b5d6d14e, type: 3}
+  - {fileID: 2120302165858051336, guid: b72d7f00da648bf40a554c854461124c, type: 3}
+  - {fileID: 8559304963187796297, guid: fc9a1d2fc0f647a469e0293b476926e6, type: 3}
+  - {fileID: 475282232193966477, guid: 03791cfd61b3c4e4a9ae6367316cbf2a, type: 3}
+  - {fileID: 1213281665981782267, guid: 3b4686d8995140c47a996c526ae36b32, type: 3}
+  - {fileID: 3708211307628302485, guid: d50e99c7f1c0b504fb91346fa9a2ce79, type: 3}
+  - {fileID: 706897433962586143, guid: 1b428b73347dc9f4e8aa066b93c8578d, type: 3}
+  - {fileID: 910379086543992431, guid: d8189cedfa874c645b8f8f35c2c1da20, type: 3}
+  - {fileID: 8472567286790782005, guid: 8041a4ae96178b6409ad8c40e816eaff, type: 3}
+  - {fileID: 5512554597527792984, guid: 2e299f3581d904c47bcd17004da7a8cb, type: 3}
+  - {fileID: 3447020864299175714, guid: d6da12fccceea8542b8ac6c11aa8cd3c, type: 3}
+  - {fileID: 8194707926053216563, guid: 48d50f93223046547b95a1f7d70d3fe1, type: 3}
+  - {fileID: 1849488255060951532, guid: 7bca2b55dbe0dcc4a860e30ec6e7c85c, type: 3}
+  obstacleFrequency: 0.384
+  linStartRot: 180
+  linPathRot: 0
+  linFinishRot: 0
+  linStartGap: 0
+  linGlobalGap: 0
+  snakeStraightPrefabs:
+  - {fileID: 5330212852923552824, guid: 8c4c28fc819503b46aef995f95bddcf5, type: 3}
+  - {fileID: 4370240081878961177, guid: 2653dc979a3f27c4a85bb8a468e48d8e, type: 3}
+  - {fileID: 7042394804637036896, guid: eacdecfe0579d6b469ac5e8df23627fa, type: 3}
+  - {fileID: 3389619540763271626, guid: 196ff1c29d95d6e48a11710f13774a19, type: 3}
+  - {fileID: 855739716197461007, guid: 9e1f65b182972444b8bb1edb624051a4, type: 3}
+  - {fileID: 1849488255060951532, guid: 7bca2b55dbe0dcc4a860e30ec6e7c85c, type: 3}
+  snakeLeftCorners: []
+  snakeRightCorners:
+  - {fileID: 7943945193035385082, guid: e0378066fdab1614fbca82c0f7c895b7, type: 3}
+  - {fileID: 199252249335738932, guid: 63b5d902be211ed41b361258cb5afcff, type: 3}
+  - {fileID: 5512554597527792984, guid: 2e299f3581d904c47bcd17004da7a8cb, type: 3}
+  - {fileID: 2105672283885625917, guid: 8975a5d1978d3cc4da10fd8154fe38ac, type: 3}
+  - {fileID: 3524879085869883884, guid: 2b0b994c0367dc04d8dd2d52902cd993, type: 3}
+  - {fileID: 627196352384202329, guid: a57c075ee1759f040937e82a199ea295, type: 3}
+  - {fileID: 4012420174132129223, guid: db1e6d2527a835e4797e9dcfaeb56e2f, type: 3}
+  snakeTurnChance: 0.3
+  snakeStartRot: 180
+  snakeFinishRot: 0
+  snakeGlobalGap: 0
+  rampUpPrefabs:
+  - {fileID: 143732877240008899, guid: 452f10929fe971b4bb6efdcd5f32ddec, type: 3}
+  - {fileID: 8500511978073461221, guid: 0883cc29f3f7b044894776eb4da7c686, type: 3}
+  - {fileID: 7851928894314498466, guid: fc30f932b6356634b88efbd9228eeedc, type: 3}
+  - {fileID: 60376952044930065, guid: 12737489a04ada94b8c02b8d1515abe8, type: 3}
+  - {fileID: 9220658447134084932, guid: 7033c576ef2190740a832eccfe398137, type: 3}
+  - {fileID: 6303898991843014290, guid: cdba2d292ada88a478ed3a38f780edc2, type: 3}
+  rampDownPrefabs: []
+  verticalStraightPrefabs:
+  - {fileID: 5330212852923552824, guid: 8c4c28fc819503b46aef995f95bddcf5, type: 3}
+  - {fileID: 4370240081878961177, guid: 2653dc979a3f27c4a85bb8a468e48d8e, type: 3}
+  - {fileID: 7042394804637036896, guid: eacdecfe0579d6b469ac5e8df23627fa, type: 3}
+  - {fileID: 3389619540763271626, guid: 196ff1c29d95d6e48a11710f13774a19, type: 3}
+  - {fileID: 475282232193966477, guid: 03791cfd61b3c4e4a9ae6367316cbf2a, type: 3}
+  - {fileID: 1213281665981782267, guid: 3b4686d8995140c47a996c526ae36b32, type: 3}
+  - {fileID: 3708211307628302485, guid: d50e99c7f1c0b504fb91346fa9a2ce79, type: 3}
+  rampElevation: 2
+  vertStartRot: 180
+  vertPathRot: 0
+  vertFinishRot: 0
+  vertStartGap: 0
+  vertGlobalGap: 0
+  manualRampLength: 0.5
+  manualRampHeight: 1
+  manualStraightLength: 1
+  lapStraightPrefabs:
+  - {fileID: 5317693587637285022, guid: a1055df60ecfddc4b84637ec43242044, type: 3}
+  - {fileID: 475282232193966477, guid: 03791cfd61b3c4e4a9ae6367316cbf2a, type: 3}
+  - {fileID: 910379086543992431, guid: d8189cedfa874c645b8f8f35c2c1da20, type: 3}
+  - {fileID: 6188689206184366124, guid: dedd4d5e6f36fb94e8338dcff2b47bfc, type: 3}
+  - {fileID: 1849488255060951532, guid: 7bca2b55dbe0dcc4a860e30ec6e7c85c, type: 3}
+  - {fileID: 6799460717518061824, guid: 2f7395318e378544da7a0fd8b5d6d14e, type: 3}
+  - {fileID: 8194707926053216563, guid: 48d50f93223046547b95a1f7d70d3fe1, type: 3}
+  lapCornerPrefabs:
+  - {fileID: 7943945193035385082, guid: e0378066fdab1614fbca82c0f7c895b7, type: 3}
+  - {fileID: 199252249335738932, guid: 63b5d902be211ed41b361258cb5afcff, type: 3}
+  lapWidth: 11
+  lapDepth: 3
+  lapScale: 100
+  blueBases:
+  - {fileID: 3447020864299175714, guid: c650bc32c1ce5594ca811c7ff8e1d296, type: 3}
+  blueGoals:
+  - {fileID: 3065971730196539968, guid: 84178ae37284084468bd3006725dec90, type: 3}
+  blueConnectors:
+  - {fileID: 475282232193966477, guid: 65c88c55730d3a049ac1056ac8de55c8, type: 3}
+  redBases:
+  - {fileID: 3447020864299175714, guid: 3a71e0ae49febb24a9f8ee2584593682, type: 3}
+  redGoals:
+  - {fileID: 3065971730196539968, guid: 8a13e5b30da6a404c94ef7079276514a, type: 3}
+  redConnectors:
+  - {fileID: 475282232193966477, guid: 836d899baf7876946bd31bfa078ff5da, type: 3}
+  arenaBridges:
+  - {fileID: 6188689206184366124, guid: 3be5286d5d739a94695c5fa610c1efc2, type: 3}
+  - {fileID: 475282232193966477, guid: 2c0c69e383be79d4aba37c46fa751f05, type: 3}
+  - {fileID: 6799460717518061824, guid: 7ddfb1e170ca7314aa7611b0deaaea08, type: 3}
+  centerPlatform: {fileID: 0}
+  bridgeLength: 10
+  arenaScale: 100
+  bridgeGap: 0
+  versusGoalRot: 180
+  emptyMiddle: 0
+  spawnCenter: 1
+  scatterAmount: 0
+  fillGoalGap: 0
+  vsSnakeBlueBases:
+  - {fileID: 3447020864299175714, guid: c650bc32c1ce5594ca811c7ff8e1d296, type: 3}
+  vsSnakeBlueGoals:
+  - {fileID: 3065971730196539968, guid: 84178ae37284084468bd3006725dec90, type: 3}
+  vsSnakeBlueConnectors:
+  - {fileID: 475282232193966477, guid: 65c88c55730d3a049ac1056ac8de55c8, type: 3}
+  vsSnakeRedBases:
+  - {fileID: 3447020864299175714, guid: 3a71e0ae49febb24a9f8ee2584593682, type: 3}
+  vsSnakeRedGoals:
+  - {fileID: 3065971730196539968, guid: 8a13e5b30da6a404c94ef7079276514a, type: 3}
+  vsSnakeRedConnectors:
+  - {fileID: 475282232193966477, guid: 836d899baf7876946bd31bfa078ff5da, type: 3}
+  vsSnakeBridgeStraights:
+  - {fileID: 6188689206184366124, guid: 349886aa7efc1c24091a953cffee5deb, type: 3}
+  - {fileID: 855739716197461007, guid: ff40e3e90e747b64cba2f6c7dfd6242d, type: 3}
+  - {fileID: 1849488255060951532, guid: 818c87cf0a42f4c47b5ad0c157ee2f2b, type: 3}
+  - {fileID: 475282232193966477, guid: 2c387aaf9c1a10d4fb2589a191752c3c, type: 3}
+  - {fileID: 1213281665981782267, guid: c8806113f8e978844bdff4fc1613926e, type: 3}
+  - {fileID: 3708211307628302485, guid: 3f1e4556fea04e441b846282d1d20421, type: 3}
+  - {fileID: 5330212852923552824, guid: 3ec6d406278c708438858e5852603095, type: 3}
+  - {fileID: 3389619540763271626, guid: 15bfd7d05fa52184d801414ffc4ae68f, type: 3}
+  - {fileID: 7042394804637036896, guid: 92cbdbb0882eb4f4eb5fa3ade72da802, type: 3}
+  - {fileID: 4370240081878961177, guid: 66a01188c78f53e43b3a316ddd2c6957, type: 3}
+  vsSnakeBridgeCorners:
+  - {fileID: 7943945193035385082, guid: e68374467101e784da0cbb4c988ebb01, type: 3}
+  - {fileID: 199252249335738932, guid: 2d397540b77dbbe4ba0f11d30db2b3f6, type: 3}
+  - {fileID: 5512554597527792984, guid: bb3a075288415fa45860bfe02d644af1, type: 3}
+  - {fileID: 2105672283885625917, guid: c4812d90444d6dc4f9b0d7e52a623533, type: 3}
+  - {fileID: 3524879085869883884, guid: 4714c386b665e8d4585ad5153dbc7ee6, type: 3}
+  - {fileID: 627196352384202329, guid: 4490143538333e144a6889d71fbe6001, type: 3}
+  - {fileID: 4012420174132129223, guid: bc0de4173d3a18b4ba5bd27f8f8be927, type: 3}
+  vsSnakeTurnChance: 0.3
+  vsSnakeMaxSideSteps: 2
